@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -c $CISFUN
+gcc -c $CCISFUN
