@@ -1,2 +1,7 @@
 #!/bin/bash
-gcc $CFILE -o | printev "Programming is like building a multilingual puzzle"| putchar 
+#include <stdio.h>
+
+int main(void) {
+    puts("Programming is like building a multilingual puzzle");
+    return 0;
+} 
