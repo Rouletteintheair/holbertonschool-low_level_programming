@@ -1,25 +1,27 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 
 /**
- * main-Enrty main
- * Return:Always 0 (Success)
- */
+ * main - Entry main
+ *
+ * Return: Always 0
+*/
+
 int main(void)
 {
-	char i;
-	char o;
-	char p;
 
-	for (i = 'a'; i <= 'z'; i++);
-	for (o = 'A'; o <= 'Z'; i++);
-	
+	char lowercase = 'a';
+	char uppercase = 'A';
+
+	while (lowercase <= 'z')
 	{
-		putchar(i);
-		putchar(o);
+		putchar(lowercase);
+		lowercase++;
 	}
-	putchar('\n');
-
+	while (uppercase <= 'Z')
+	{
+		putchar(uppercase);
+		uppercase++;
+	}
+	putchar ('\n');
 	return (0);
 }
