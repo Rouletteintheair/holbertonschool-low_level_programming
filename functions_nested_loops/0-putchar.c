@@ -2,12 +2,21 @@
 #include <stdio.h>
 
 /**
- * main-Entry main
+ * main-printing _putchar with only the function _putchar
  * Return:Always 0 (success)
  */
 
 int main(void)
 {
-	puts("_putchar\n");
+	putchar('_');
+	putchar('p');
+	putchar('u');
+	putchar('t');
+	putchar('c');
+	putchar('h');
+	putchar('a');
+	putchar('r');
+	putchar('\n');
+
 	return (0);
 }
