@@ -7,6 +7,6 @@ void print_alphabet_x10(void); /** declaration of the function print_alphabet_*1
 int _islower(int c); /** declaration of the function islower */
 int _isalpha(int c); /** declaration of the function isalpha*/
 int print_sign(int n);/** declaration of the function print sign */
-
+int _abs(int);
 
 #endif
