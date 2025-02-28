@@ -1,9 +1,13 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * _strlen - Calcule la longueur d'une chaîne de caractères.
+ * @s: Pointeur vers la chaîne dont on veut mesurer la longueur.
  *
- * Return: Always 0
+ * Description: Cette fonction prend une chaîne de caractères
+ * et retourne sa longueur sans compter le caractère nul '\0'.
+ *
+ * Return: La longueur de la chaîne en tant qu'entier.
  */
 int _strlen(char *s)
 {
