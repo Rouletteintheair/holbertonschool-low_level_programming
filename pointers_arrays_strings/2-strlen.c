@@ -8,11 +8,11 @@
  */
 int _strlen(char *s)
 {
-	int longueur = 0; /* Tant qu'on ne rencontre pas le caractère nul */
+	int longueur = 0;
 
 	while (s[longueur] != '\0')
 	{
-		longueur++; /* On incrémente le compteur */
+		longueur++;
 	}
 	return (longueur);
 }
