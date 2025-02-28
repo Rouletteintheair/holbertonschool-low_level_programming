@@ -7,4 +7,5 @@ int _strlen(char *s);
 void _puts(char *str);
 int _putchar(char c);/** function for the _putchar */
 void print_rev(char *s);/** print reverse the last putchar*/
+void rev_string(char *s);/** print my school and loohcs ym*/
 #endif /* MAIN_H */
