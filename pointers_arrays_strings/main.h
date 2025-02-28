@@ -6,4 +6,5 @@ void swap_int(int *a, int *b);/**function that swaps the values of two integers 
 int _strlen(char *s);
 void _puts(char *str);
 int _putchar(char c);/** function for the _putchar */
+void print_rev(char *s);/** print reverse the last putchar*/
 #endif /* MAIN_H */
