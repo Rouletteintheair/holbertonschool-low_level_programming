@@ -1,6 +1,13 @@
 #include <unistd.h>
 #include "main.h"
 
+/**
+ * puts2 - prints every other character of a string
+ * @str: the string to be printed
+ *
+ * Description: This function prints every other character of the given string,
+ * starting from the first character, followed by a new line.
+ */
 void puts2(char *str)
 {
 	int i = 0;
