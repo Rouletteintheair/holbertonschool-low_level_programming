@@ -24,6 +24,6 @@ char *_strcpy(char *dest, char *src)
 	/* Copy the null byte to terminate the string */
 	dest[i] = '\0';
 
-	return dest;  /* Return pointer to destination */
+	return (dest);  /* Return pointer to destination */
 }
 
